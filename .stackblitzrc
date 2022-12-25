@@ -1,6 +1,6 @@
 {
   "installDependencies": false,
-  "startCommand": "npm install && npm run test:ui",
+  "startCommand": "npm install && npm run dev",
   "env": {
     "NODE_ENV": "development"
   }
