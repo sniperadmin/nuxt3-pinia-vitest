@@ -1,0 +1,49 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "HOST=0.0.0.0 nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:bench": "vitest bench",
+    "coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@intlify/nuxt3": "^0.2.4",
+    "@intlify/unplugin-vue-i18n": "^0.8.1",
+    "@leanera/nuxt-i18n": "^0.3.13",
+    "@nuxtjs/google-fonts": "^2.0.0",
+    "@pinia/testing": "^0.0.14",
+    "@typescript-eslint/eslint-plugin": "^5.47.0",
+    "@typescript-eslint/parser": "^5.47.0",
+    "@vitest/coverage-c8": "^0.26.2",
+    "@vitest/ui": "^0.26.2",
+    "@vue/test-utils": "^2.2.6",
+    "eslint": "^8.30.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "eslint-plugin-vue": "^9.8.0",
+    "jsdom": "^20.0.3",
+    "nuxt": "npm:nuxt3@latest",
+    "nuxt3": "^3.0.1-rc.0-27857531.faf2607",
+    "typescript": "^4.9.4",
+    "vite-plugin-eslint": "^1.8.1",
+    "vite-plugin-vuetify": "^1.0.1",
+    "vitest": "^0.26.2",
+    "vitest-preview": "^0.0.1",
+    "vue-i18n": "^9.2.2"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.1.96",
+    "@pinia/nuxt": "^0.4.6",
+    "particles.js": "^2.0.0",
+    "particles.vue3": "^2.7.0",
+    "responsivevoice": "^0.4.1",
+    "sass": "^1.57.1",
+    "tsparticles": "^2.7.0",
+    "vue3-particles": "^2.7.0",
+    "vuetify": "^3.0.5"
+  }
+}
