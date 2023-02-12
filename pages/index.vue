@@ -1,7 +1,4 @@
-<script lang="ts">
-// import { useDisplay } from 'vuetify';
-// const { mobile } = useDisplay();
-</script>
+<script lang="ts"></script>
 
 <template>
   <v-row justify="center">
