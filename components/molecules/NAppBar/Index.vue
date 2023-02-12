@@ -33,7 +33,9 @@ watch(localeSelection, async (newLocale) => {
       <v-app-bar-nav-icon></v-app-bar-nav-icon>
     </template>
 
-    <v-app-bar-title>Nash</v-app-bar-title>
+    <v-app-bar-title>
+      <v-img src="/nash-logo.png" width="100" />
+    </v-app-bar-title>
 
     <template v-slot:append>
       <v-select
