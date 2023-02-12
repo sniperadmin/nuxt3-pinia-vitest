@@ -20,7 +20,7 @@ defineExpose({ runStopwatch });
 </script>
 
 <template>
-  <v-card class="text-center">
+  <v-card flat class="text-center">
     <v-card-title class="text-h3 py-8">
       {{ showTime }}
     </v-card-title>
