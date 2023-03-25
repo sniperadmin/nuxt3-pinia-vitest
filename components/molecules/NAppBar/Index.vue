@@ -38,6 +38,8 @@ watch(localeSelection, async (newLocale) => {
     </v-app-bar-title>
 
     <template v-slot:append>
+      <NBtn label="home" to="/" />
+      <NBtn label="numerology" to="/numerology" />
       <v-select
         v-model="localeSelection"
         :items="locales"
